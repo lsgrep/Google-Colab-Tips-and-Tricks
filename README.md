@@ -9,7 +9,7 @@ Majority of Colab shortcuts are multi step shortcuts like Emacs. For example,
 to see all the available shortcuts you have to press`Command/Ctrl + m` prefix first then press`h`.
 
 It is too much mental burden to remember every single shortcut, 
-so typing out the command via command palette is not a bad idea.
+so typing out the command via command palette(`Command/Ctrl+Shift+p`) is not a bad idea.
 ![command_palette](https://raw.githubusercontent.com/lsgrep/Google-Colab-Tips-and-Tricks/master/assets/command-palette.png)
 
 
