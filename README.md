@@ -29,8 +29,8 @@ The following command can be used to create Colab app on macOS with [nativefier]
 
 ```shell
 nativefier --name "Colab" \
-  --internal-urls "(.*?contacts\.google\.com.*?|.*?accounts\.google\.com.*?|.*?colab\.research\.google\.com.*?)" \
-  --single-instance --icon assets/Colab.png  https://colab.research.google.com
+  --internal-urls ".*" \
+  --single-instance --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:87.0) Gecko/20100101 Firefox/87.0'  --icon assets/Colab.png https://colab.research.google.com
 ```
 
 You have to switch the icon file to the corresponding one based on your system.
